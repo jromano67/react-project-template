@@ -1,8 +1,13 @@
 import React from "react";
+// import "./App.css";
 
-function Card() {
+const styleRules = {
+  width: "18rem"
+};
+function Card(props) {
+  console.log(props);
   return (
-    <div class="card" style="width: 18rem;">
+    <div class="card" style={styleRules}>
       <img src="..." class="card-img-top" alt="..." />
       <div class="card-body">
         <h5 class="card-title">Card title</h5>
